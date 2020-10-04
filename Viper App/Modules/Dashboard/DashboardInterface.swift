@@ -8,7 +8,7 @@
 import Foundation
 
 enum DashboardNavigationOption {
-    case movieDetail(_ movieID: String)
+    case movieDetail(_ result: Result)
 }
 
 protocol DashboardWireframeInterface: WireframeInterface {
@@ -16,13 +16,14 @@ protocol DashboardWireframeInterface: WireframeInterface {
 }
 
 protocol DashboardPresenterInterface: PresenterInterface {
-    func didPressNavigateToMovieDetail(_ movieDetail: String)
+    func didPressNavigateToMovieDetail(_ movieDetail: Result)
+    var movieList: MovieList? { get }
 }
 
 protocol DashboardViewInterface: ViewInterface {
-    
+    func reloadView()
 }
 
 protocol DashboardInteractorInterface: InteractorInterface {
-    
+    func fetchFilms(completionHandler: @escaping (MovieList) -> Void)
 }

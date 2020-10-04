@@ -11,10 +11,13 @@ final class MovieDetailPresenter {
     private unowned let _view: MovieDetailViewInterface
     private let _interactor: MovieDetailInteractorInterface
     
-    init(wireframe: MovieDetailWireframeInterface, view: MovieDetailViewInterface, interactor: MovieDetailInteractorInterface, movieID: String) {
+    var result: Result?
+    
+    init(wireframe: MovieDetailWireframeInterface, view: MovieDetailViewInterface, interactor: MovieDetailInteractorInterface, _ result: Result) {
         self._wireframe = wireframe
         self._view = view
         self._interactor = interactor
+        self.result = result
     }
     
 }

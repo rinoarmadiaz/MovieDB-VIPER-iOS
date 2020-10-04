@@ -6,11 +6,11 @@
 //
 
 protocol MovieDetailPresenterInterface: PresenterInterface {
-    
+    var result: Result? { get }
 }
 
 protocol MovieDetailViewInterface: ViewInterface {
-    
+    func reloadView()
 }
 
 protocol MovieDetailInteractorInterface: InteractorInterface {

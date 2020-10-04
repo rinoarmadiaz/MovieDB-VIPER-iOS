@@ -7,11 +7,11 @@
 
 
 final class MovieDetailWireframe: BaseWireframe {
-    init(_ movieID: String) {
+    init(_ result: Result) {
         let moduleViewController = MovieDetailViewController(nibName: "MovieDetailViewController", bundle: nil)
         super.init(viewController: moduleViewController)
         let interactor = MovieDetailInteractor()
-        let presenter = MovieDetailPresenter(wireframe: self, view: moduleViewController, interactor: interactor, movieID: movieID)
+        let presenter = MovieDetailPresenter(wireframe: self, view: moduleViewController, interactor: interactor, result)
         moduleViewController.presenter = presenter
     }
 }

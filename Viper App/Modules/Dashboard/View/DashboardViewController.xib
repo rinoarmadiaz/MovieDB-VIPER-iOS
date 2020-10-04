@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DashboardViewController" customModule="Viper_App" customModuleProvider="target">
             <connections>
-                <outlet property="navigateButton" destination="iqm-cr-NTo" id="TZ2-GI-Jqd"/>
+                <outlet property="_tableView" destination="Pv6-D8-9dI" id="KQM-Hn-ABf"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,18 +19,20 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqm-cr-NTo">
-                    <rect key="frame" x="144.5" y="433" width="125" height="30"/>
-                    <state key="normal" title="Navigate To Detail"/>
-                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pv6-D8-9dI">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="iqm-cr-NTo" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="OWp-G1-beo"/>
-                <constraint firstItem="iqm-cr-NTo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rdW-4V-D6p"/>
+                <constraint firstItem="Pv6-D8-9dI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5yy-Fu-MKs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Pv6-D8-9dI" secondAttribute="bottom" id="Zb9-nn-xA1"/>
+                <constraint firstItem="Pv6-D8-9dI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="f0b-xy-E0p"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Pv6-D8-9dI" secondAttribute="trailing" id="wg3-Bn-cDD"/>
             </constraints>
-            <point key="canvasLocation" x="-196" y="66"/>
+            <point key="canvasLocation" x="-197.10144927536234" y="65.625"/>
         </view>
     </objects>
     <resources>

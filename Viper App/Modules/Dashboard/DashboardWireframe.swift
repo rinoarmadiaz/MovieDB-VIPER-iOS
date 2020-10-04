@@ -16,8 +16,8 @@ final class DashboardWireframe: BaseWireframe {
         moduleViewController.presenter = presenter
     }
     
-    private func _navigateToMovieDetail(_ movieID: String) {
-        navigationController?.pushWireframe(MovieDetailWireframe(movieID))
+    private func _navigateToMovieDetail(_ result: Result) {
+        navigationController?.pushWireframe(MovieDetailWireframe(result))
     }
 }
 
@@ -25,8 +25,8 @@ final class DashboardWireframe: BaseWireframe {
 extension DashboardWireframe: DashboardWireframeInterface {
     func navigate(to option: DashboardNavigationOption) {
         switch option {
-        case .movieDetail(let movieID):
-            _navigateToMovieDetail(movieID)
+        case .movieDetail(let result):
+            _navigateToMovieDetail(result)
         }
     }
 }

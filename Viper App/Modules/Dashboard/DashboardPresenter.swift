@@ -10,6 +10,12 @@ final class DashboardPresenter {
     private unowned let _view: DashboardViewInterface
     private let _interactor: DashboardInteractorInterface
     
+    var movieList: MovieList? {
+        didSet {
+            _view.reloadView()
+        }
+    }
+    
     init(wireframe: DashboardWireframeInterface, view: DashboardViewInterface, interactor: DashboardInteractorInterface) {
         _view = view
         _wireframe = wireframe
@@ -18,11 +24,13 @@ final class DashboardPresenter {
 }
 
 extension DashboardPresenter: DashboardPresenterInterface {
-    func didPressNavigateToMovieDetail(_ movieDetail: String) {
-        _wireframe.navigate(to: .movieDetail(movieDetail))
+    func didPressNavigateToMovieDetail(_ result: Result) {
+        _wireframe.navigate(to: .movieDetail(result))
     }
     
     func viewDidLoad() {
-        
+        _interactor.fetchFilms { (movieList: MovieList) in
+            self.movieList = movieList
+        }
     }
 }
