@@ -5,7 +5,7 @@
 - Showing details about selected movie
 
 ### Architecture
-- Viper
+- VIPER
 
 # Application Preview
 ![Alt Text](https://media.giphy.com/media/thiCnQc62pzTmyOXjI/giphy.gif)
