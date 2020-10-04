@@ -31,6 +31,7 @@
 		FA1F9F90252A0F1800FDE804 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F8F252A0F1800FDE804 /* MovieList.swift */; };
 		FAB613EF252A154500BA87D4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB613ED252A154500BA87D4 /* MovieCell.swift */; };
 		FAB613F0252A154500BA87D4 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB613EE252A154500BA87D4 /* MovieCell.xib */; };
+		FADA6F3C252A43B000B8C4D9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FADA6F3B252A43B000B8C4D9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		FA1F9F8F252A0F1800FDE804 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		FAB613ED252A154500BA87D4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		FAB613EE252A154500BA87D4 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		FADA6F3B252A43B000B8C4D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		FA1F9F162529F0FA00FDE804 = {
 			isa = PBXGroup;
 			children = (
+				FADA6F3B252A43B000B8C4D9 /* README.md */,
 				FA1F9F212529F0FA00FDE804 /* Viper App */,
 				FA1F9F202529F0FA00FDE804 /* Products */,
 			);
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADA6F3C252A43B000B8C4D9 /* README.md in Resources */,
 				FA1F9F7E252A06D300FDE804 /* MovieDetailViewController.xib in Resources */,
 				FA1F9F2F2529F0FF00FDE804 /* LaunchScreen.storyboard in Resources */,
 				FA1F9F2C2529F0FF00FDE804 /* Assets.xcassets in Resources */,
