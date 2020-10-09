@@ -7,6 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1C5F4925304DD600A14157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F222529F0FA00FDE804 /* AppDelegate.swift */; };
+		FA1C5F4A25304DD600A14157 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F422529F30700FDE804 /* DashboardViewController.swift */; };
+		FA1C5F4B25304DD600A14157 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB613ED252A154500BA87D4 /* MovieCell.swift */; };
+		FA1C5F4C25304DD600A14157 /* MovieDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F84252A074A00FDE804 /* MovieDetailPresenter.swift */; };
+		FA1C5F4D25304DD600A14157 /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F612529F7D800FDE804 /* InteractorInterface.swift */; };
+		FA1C5F4E25304DD600A14157 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F8F252A0F1800FDE804 /* MovieList.swift */; };
+		FA1C5F4F25304DD600A14157 /* MovieDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F8B252A08FF00FDE804 /* MovieDetailInteractor.swift */; };
+		FA1C5F5025304DD600A14157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F242529F0FA00FDE804 /* SceneDelegate.swift */; };
+		FA1C5F5125304DD600A14157 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F7B252A06D300FDE804 /* MovieDetailViewController.swift */; };
+		FA1C5F5225304DD600A14157 /* DashboardInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F682529F92A00FDE804 /* DashboardInterface.swift */; };
+		FA1C5F5325304DD600A14157 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F6B2529F99100FDE804 /* DashboardPresenter.swift */; };
+		FA1C5F5525304DD600A14157 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F572529F52B00FDE804 /* BaseWireframe.swift */; };
+		FA1C5F5625304DD600A14157 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E1885252A1DA2006B7787 /* UIImageView.swift */; };
+		FA1C5F5725304DD600A14157 /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F712529FA9100FDE804 /* DashboardInteractor.swift */; };
+		FA1C5F5825304DD600A14157 /* MovieDetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F87252A077E00FDE804 /* MovieDetailWireframe.swift */; };
+		FA1C5F5925304DD600A14157 /* DashboardWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F6E2529F9A300FDE804 /* DashboardWireframe.swift */; };
+		FA1C5F5A25304DD600A14157 /* MovieDetailInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F81252A06E400FDE804 /* MovieDetailInterface.swift */; };
+		FA1C5F5B25304DD600A14157 /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F5E2529F7B500FDE804 /* ViewInterface.swift */; };
+		FA1C5F5C25304DD600A14157 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F5B2529F55D00FDE804 /* PresenterInterface.swift */; };
+		FA1C5F5F25304DD600A14157 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FADA6F3B252A43B000B8C4D9 /* README.md */; };
+		FA1C5F6025304DD600A14157 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1F9F7C252A06D300FDE804 /* MovieDetailViewController.xib */; };
+		FA1C5F6125304DD600A14157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1F9F2D2529F0FF00FDE804 /* LaunchScreen.storyboard */; };
+		FA1C5F6225304DD600A14157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1F9F2B2529F0FF00FDE804 /* Assets.xcassets */; };
+		FA1C5F6325304DD600A14157 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1F9F432529F30700FDE804 /* DashboardViewController.xib */; };
+		FA1C5F6425304DD600A14157 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB613EE252A154500BA87D4 /* MovieCell.xib */; };
+		FA1C5F6E25304DDB00A14157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F222529F0FA00FDE804 /* AppDelegate.swift */; };
+		FA1C5F6F25304DDB00A14157 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F422529F30700FDE804 /* DashboardViewController.swift */; };
+		FA1C5F7025304DDB00A14157 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB613ED252A154500BA87D4 /* MovieCell.swift */; };
+		FA1C5F7125304DDB00A14157 /* MovieDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F84252A074A00FDE804 /* MovieDetailPresenter.swift */; };
+		FA1C5F7225304DDB00A14157 /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F612529F7D800FDE804 /* InteractorInterface.swift */; };
+		FA1C5F7325304DDB00A14157 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F8F252A0F1800FDE804 /* MovieList.swift */; };
+		FA1C5F7425304DDB00A14157 /* MovieDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F8B252A08FF00FDE804 /* MovieDetailInteractor.swift */; };
+		FA1C5F7525304DDB00A14157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F242529F0FA00FDE804 /* SceneDelegate.swift */; };
+		FA1C5F7625304DDB00A14157 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F7B252A06D300FDE804 /* MovieDetailViewController.swift */; };
+		FA1C5F7725304DDB00A14157 /* DashboardInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F682529F92A00FDE804 /* DashboardInterface.swift */; };
+		FA1C5F7825304DDB00A14157 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F6B2529F99100FDE804 /* DashboardPresenter.swift */; };
+		FA1C5F7A25304DDB00A14157 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F572529F52B00FDE804 /* BaseWireframe.swift */; };
+		FA1C5F7B25304DDB00A14157 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E1885252A1DA2006B7787 /* UIImageView.swift */; };
+		FA1C5F7C25304DDB00A14157 /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F712529FA9100FDE804 /* DashboardInteractor.swift */; };
+		FA1C5F7D25304DDB00A14157 /* MovieDetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F87252A077E00FDE804 /* MovieDetailWireframe.swift */; };
+		FA1C5F7E25304DDB00A14157 /* DashboardWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F6E2529F9A300FDE804 /* DashboardWireframe.swift */; };
+		FA1C5F7F25304DDB00A14157 /* MovieDetailInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F81252A06E400FDE804 /* MovieDetailInterface.swift */; };
+		FA1C5F8025304DDB00A14157 /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F5E2529F7B500FDE804 /* ViewInterface.swift */; };
+		FA1C5F8125304DDB00A14157 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F5B2529F55D00FDE804 /* PresenterInterface.swift */; };
+		FA1C5F8425304DDB00A14157 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FADA6F3B252A43B000B8C4D9 /* README.md */; };
+		FA1C5F8525304DDB00A14157 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1F9F7C252A06D300FDE804 /* MovieDetailViewController.xib */; };
+		FA1C5F8625304DDB00A14157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1F9F2D2529F0FF00FDE804 /* LaunchScreen.storyboard */; };
+		FA1C5F8725304DDB00A14157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1F9F2B2529F0FF00FDE804 /* Assets.xcassets */; };
+		FA1C5F8825304DDB00A14157 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1F9F432529F30700FDE804 /* DashboardViewController.xib */; };
+		FA1C5F8925304DDB00A14157 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB613EE252A154500BA87D4 /* MovieCell.xib */; };
+		FA1C5F9B25304E7E00A14157 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C5F35253045E300A14157 /* Engine.swift */; };
+		FA1C5F9F25304E8100A14157 /* TransportationDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C5F2E253044CF00A14157 /* TransportationDevice.swift */; };
+		FA1C5FB125304E8900A14157 /* TransportationDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C5F3C253048A200A14157 /* TransportationDevice.swift */; };
+		FA1C5FB225304E8900A14157 /* VehicleWithoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C5F442530495000A14157 /* VehicleWithoutEngine.swift */; };
+		FA1C5FB7253061DD00A14157 /* VehicleWithEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C5FB6253061DD00A14157 /* VehicleWithEngine.swift */; };
+		FA1C5FBC253061F700A14157 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C5FBB253061F700A14157 /* Engine.swift */; };
+		FA1C5FC42530624900A14157 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C5FC32530624900A14157 /* Vehicle.swift */; };
+		FA1C5FC9253062FA00A14157 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C5FC8253062FA00A14157 /* Vehicle.swift */; };
 		FA1E1886252A1DA2006B7787 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E1885252A1DA2006B7787 /* UIImageView.swift */; };
 		FA1F9F232529F0FA00FDE804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F222529F0FA00FDE804 /* AppDelegate.swift */; };
 		FA1F9F252529F0FA00FDE804 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F9F242529F0FA00FDE804 /* SceneDelegate.swift */; };
@@ -32,9 +90,35 @@
 		FAB613EF252A154500BA87D4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB613ED252A154500BA87D4 /* MovieCell.swift */; };
 		FAB613F0252A154500BA87D4 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB613EE252A154500BA87D4 /* MovieCell.xib */; };
 		FADA6F3C252A43B000B8C4D9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FADA6F3B252A43B000B8C4D9 /* README.md */; };
+		FADBC5CF2530679200495306 /* Engine1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC5CE2530679200495306 /* Engine1.swift */; };
+		FADBC5D7253067C300495306 /* TransportationDevice1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC5D6253067C300495306 /* TransportationDevice1.swift */; };
+		FADBC5DC253067E700495306 /* Vehicle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC5DB253067E700495306 /* Vehicle1.swift */; };
+		FADBC5E12530697600495306 /* Engine1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC5E02530697600495306 /* Engine1.swift */; };
+		FADBC5E6253069A100495306 /* TransportationDevice1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC5E5253069A100495306 /* TransportationDevice1.swift */; };
+		FADBC5EB253069EC00495306 /* VehicleWithoutEngine1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC5EA253069EC00495306 /* VehicleWithoutEngine1.swift */; };
+		FADBC5F025306ABE00495306 /* VehicleWithEngine1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC5EF25306ABE00495306 /* VehicleWithEngine1.swift */; };
+		FADBC5F825306C2700495306 /* Vehicle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC5F725306C2700495306 /* Vehicle1.swift */; };
+		FADBC5FF25306E5300495306 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC5FE25306E5300495306 /* DataAccess.swift */; };
+		FADBC60425306EAB00495306 /* DataAccessFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC60325306EAB00495306 /* DataAccessFactory.swift */; };
+		FADBC60925306F1A00495306 /* DataCustomerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC60825306F1A00495306 /* DataCustomerLogic.swift */; };
+		FADBC60F25306FBF00495306 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC60E25306FBF00495306 /* DataAccess.swift */; };
+		FADBC61A2530704000495306 /* DataAccessFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC6192530704000495306 /* DataAccessFactory.swift */; };
+		FADBC61F2530710A00495306 /* DataCustomerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBC61E2530710A00495306 /* DataCustomerLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1C5F2E253044CF00A14157 /* TransportationDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationDevice.swift; sourceTree = "<group>"; };
+		FA1C5F35253045E300A14157 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		FA1C5F3C253048A200A14157 /* TransportationDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationDevice.swift; sourceTree = "<group>"; };
+		FA1C5F442530495000A14157 /* VehicleWithoutEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleWithoutEngine.swift; sourceTree = "<group>"; };
+		FA1C5F6825304DD600A14157 /* Viper App Wrong Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper App Wrong Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1C5F6925304DD700A14157 /* InfoCorrectExample.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoCorrectExample.plist; path = "/Users/armadiaz/Documents/development/ios/example/Viper App/InfoCorrectExample.plist"; sourceTree = "<absolute>"; };
+		FA1C5F8D25304DDB00A14157 /* Viper App Correct Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper App Correct Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1C5F8E25304DDB00A14157 /* InfoWrongExample.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoWrongExample.plist; path = "/Users/armadiaz/Documents/development/ios/example/Viper App/InfoWrongExample.plist"; sourceTree = "<absolute>"; };
+		FA1C5FB6253061DD00A14157 /* VehicleWithEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleWithEngine.swift; sourceTree = "<group>"; };
+		FA1C5FBB253061F700A14157 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		FA1C5FC32530624900A14157 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		FA1C5FC8253062FA00A14157 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		FA1E1885252A1DA2006B7787 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		FA1F9F1F2529F0FA00FDE804 /* Viper App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1F9F222529F0FA00FDE804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,9 +146,37 @@
 		FAB613ED252A154500BA87D4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		FAB613EE252A154500BA87D4 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 		FADA6F3B252A43B000B8C4D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FADBC5CE2530679200495306 /* Engine1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine1.swift; sourceTree = "<group>"; };
+		FADBC5D6253067C300495306 /* TransportationDevice1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationDevice1.swift; sourceTree = "<group>"; };
+		FADBC5DB253067E700495306 /* Vehicle1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle1.swift; sourceTree = "<group>"; };
+		FADBC5E02530697600495306 /* Engine1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine1.swift; sourceTree = "<group>"; };
+		FADBC5E5253069A100495306 /* TransportationDevice1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationDevice1.swift; sourceTree = "<group>"; };
+		FADBC5EA253069EC00495306 /* VehicleWithoutEngine1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleWithoutEngine1.swift; sourceTree = "<group>"; };
+		FADBC5EF25306ABE00495306 /* VehicleWithEngine1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleWithEngine1.swift; sourceTree = "<group>"; };
+		FADBC5F725306C2700495306 /* Vehicle1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle1.swift; sourceTree = "<group>"; };
+		FADBC5FE25306E5300495306 /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		FADBC60325306EAB00495306 /* DataAccessFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccessFactory.swift; sourceTree = "<group>"; };
+		FADBC60825306F1A00495306 /* DataCustomerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCustomerLogic.swift; sourceTree = "<group>"; };
+		FADBC60E25306FBF00495306 /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		FADBC6192530704000495306 /* DataAccessFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccessFactory.swift; sourceTree = "<group>"; };
+		FADBC61E2530710A00495306 /* DataCustomerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCustomerLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FA1C5F5D25304DD600A14157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C5F8225304DDB00A14157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA1F9F1C2529F0FA00FDE804 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,6 +187,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1C5F2A2530448700A14157 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C5F2B2530449A00A14157 /* Liskov Substitution Principle */,
+				FADBC5CB2530672B00495306 /* Interface segregation principle  */,
+				FADBC5FC25306DF700495306 /* Dependency Inversion Principle */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		FA1C5F2B2530449A00A14157 /* Liskov Substitution Principle */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C5F2C253044B900A14157 /* Wrong */,
+				FA1C5F2D253044BC00A14157 /* Correct */,
+			);
+			path = "Liskov Substitution Principle";
+			sourceTree = "<group>";
+		};
+		FA1C5F2C253044B900A14157 /* Wrong */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C5F35253045E300A14157 /* Engine.swift */,
+				FA1C5F2E253044CF00A14157 /* TransportationDevice.swift */,
+				FA1C5FC8253062FA00A14157 /* Vehicle.swift */,
+			);
+			path = Wrong;
+			sourceTree = "<group>";
+		};
+		FA1C5F2D253044BC00A14157 /* Correct */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C5FBB253061F700A14157 /* Engine.swift */,
+				FA1C5F3C253048A200A14157 /* TransportationDevice.swift */,
+				FA1C5F442530495000A14157 /* VehicleWithoutEngine.swift */,
+				FA1C5FB6253061DD00A14157 /* VehicleWithEngine.swift */,
+				FA1C5FC32530624900A14157 /* Vehicle.swift */,
+			);
+			path = Correct;
+			sourceTree = "<group>";
+		};
 		FA1E1884252A1D94006B7787 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +251,7 @@
 				FADA6F3B252A43B000B8C4D9 /* README.md */,
 				FA1F9F212529F0FA00FDE804 /* Viper App */,
 				FA1F9F202529F0FA00FDE804 /* Products */,
+				FA1C5F2A2530448700A14157 /* Example */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +259,8 @@
 			isa = PBXGroup;
 			children = (
 				FA1F9F1F2529F0FA00FDE804 /* Viper App.app */,
+				FA1C5F6825304DD600A14157 /* Viper App Wrong Example.app */,
+				FA1C5F8D25304DDB00A14157 /* Viper App Correct Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +275,8 @@
 				FA1F9F242529F0FA00FDE804 /* SceneDelegate.swift */,
 				FA1F9F2B2529F0FF00FDE804 /* Assets.xcassets */,
 				FA1F9F302529F0FF00FDE804 /* Info.plist */,
+				FA1C5F8E25304DDB00A14157 /* InfoWrongExample.plist */,
+				FA1C5F6925304DD700A14157 /* InfoCorrectExample.plist */,
 				FA1F9F2D2529F0FF00FDE804 /* LaunchScreen.storyboard */,
 			);
 			path = "Viper App";
@@ -196,9 +354,103 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		FADBC5CB2530672B00495306 /* Interface segregation principle  */ = {
+			isa = PBXGroup;
+			children = (
+				FADBC5CC2530673500495306 /* Wrong */,
+				FADBC5CD2530673900495306 /* Correct */,
+			);
+			path = "Interface segregation principle ";
+			sourceTree = "<group>";
+		};
+		FADBC5CC2530673500495306 /* Wrong */ = {
+			isa = PBXGroup;
+			children = (
+				FADBC5CE2530679200495306 /* Engine1.swift */,
+				FADBC5D6253067C300495306 /* TransportationDevice1.swift */,
+				FADBC5DB253067E700495306 /* Vehicle1.swift */,
+			);
+			path = Wrong;
+			sourceTree = "<group>";
+		};
+		FADBC5CD2530673900495306 /* Correct */ = {
+			isa = PBXGroup;
+			children = (
+				FADBC5E02530697600495306 /* Engine1.swift */,
+				FADBC5E5253069A100495306 /* TransportationDevice1.swift */,
+				FADBC5EA253069EC00495306 /* VehicleWithoutEngine1.swift */,
+				FADBC5EF25306ABE00495306 /* VehicleWithEngine1.swift */,
+				FADBC5F725306C2700495306 /* Vehicle1.swift */,
+			);
+			path = Correct;
+			sourceTree = "<group>";
+		};
+		FADBC5FC25306DF700495306 /* Dependency Inversion Principle */ = {
+			isa = PBXGroup;
+			children = (
+				FADBC5FD25306E2800495306 /* Wrong */,
+				FADBC60D25306F7A00495306 /* Correct */,
+			);
+			path = "Dependency Inversion Principle";
+			sourceTree = "<group>";
+		};
+		FADBC5FD25306E2800495306 /* Wrong */ = {
+			isa = PBXGroup;
+			children = (
+				FADBC5FE25306E5300495306 /* DataAccess.swift */,
+				FADBC60325306EAB00495306 /* DataAccessFactory.swift */,
+				FADBC60825306F1A00495306 /* DataCustomerLogic.swift */,
+			);
+			path = Wrong;
+			sourceTree = "<group>";
+		};
+		FADBC60D25306F7A00495306 /* Correct */ = {
+			isa = PBXGroup;
+			children = (
+				FADBC60E25306FBF00495306 /* DataAccess.swift */,
+				FADBC6192530704000495306 /* DataAccessFactory.swift */,
+				FADBC61E2530710A00495306 /* DataCustomerLogic.swift */,
+			);
+			path = Correct;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FA1C5F4725304DD600A14157 /* Viper App Wrong Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1C5F6525304DD600A14157 /* Build configuration list for PBXNativeTarget "Viper App Wrong Example" */;
+			buildPhases = (
+				FA1C5F4825304DD600A14157 /* Sources */,
+				FA1C5F5D25304DD600A14157 /* Frameworks */,
+				FA1C5F5E25304DD600A14157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viper App Wrong Example";
+			productName = "Viper App";
+			productReference = FA1C5F6825304DD600A14157 /* Viper App Wrong Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA1C5F6C25304DDB00A14157 /* Viper App Correct Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1C5F8A25304DDB00A14157 /* Build configuration list for PBXNativeTarget "Viper App Correct Example" */;
+			buildPhases = (
+				FA1C5F6D25304DDB00A14157 /* Sources */,
+				FA1C5F8225304DDB00A14157 /* Frameworks */,
+				FA1C5F8325304DDB00A14157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viper App Correct Example";
+			productName = "Viper App";
+			productReference = FA1C5F8D25304DDB00A14157 /* Viper App Correct Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FA1F9F1E2529F0FA00FDE804 /* Viper App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA1F9F332529F0FF00FDE804 /* Build configuration list for PBXNativeTarget "Viper App" */;
@@ -244,11 +496,39 @@
 			projectRoot = "";
 			targets = (
 				FA1F9F1E2529F0FA00FDE804 /* Viper App */,
+				FA1C5F4725304DD600A14157 /* Viper App Wrong Example */,
+				FA1C5F6C25304DDB00A14157 /* Viper App Correct Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FA1C5F5E25304DD600A14157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1C5F5F25304DD600A14157 /* README.md in Resources */,
+				FA1C5F6025304DD600A14157 /* MovieDetailViewController.xib in Resources */,
+				FA1C5F6125304DD600A14157 /* LaunchScreen.storyboard in Resources */,
+				FA1C5F6225304DD600A14157 /* Assets.xcassets in Resources */,
+				FA1C5F6325304DD600A14157 /* DashboardViewController.xib in Resources */,
+				FA1C5F6425304DD600A14157 /* MovieCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C5F8325304DDB00A14157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1C5F8425304DDB00A14157 /* README.md in Resources */,
+				FA1C5F8525304DDB00A14157 /* MovieDetailViewController.xib in Resources */,
+				FA1C5F8625304DDB00A14157 /* LaunchScreen.storyboard in Resources */,
+				FA1C5F8725304DDB00A14157 /* Assets.xcassets in Resources */,
+				FA1C5F8825304DDB00A14157 /* DashboardViewController.xib in Resources */,
+				FA1C5F8925304DDB00A14157 /* MovieCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA1F9F1D2529F0FA00FDE804 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +545,80 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FA1C5F4825304DD600A14157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADBC5CF2530679200495306 /* Engine1.swift in Sources */,
+				FA1C5FC9253062FA00A14157 /* Vehicle.swift in Sources */,
+				FA1C5F4925304DD600A14157 /* AppDelegate.swift in Sources */,
+				FA1C5F4A25304DD600A14157 /* DashboardViewController.swift in Sources */,
+				FADBC60925306F1A00495306 /* DataCustomerLogic.swift in Sources */,
+				FA1C5F4B25304DD600A14157 /* MovieCell.swift in Sources */,
+				FA1C5F9F25304E8100A14157 /* TransportationDevice.swift in Sources */,
+				FA1C5F4C25304DD600A14157 /* MovieDetailPresenter.swift in Sources */,
+				FA1C5F4D25304DD600A14157 /* InteractorInterface.swift in Sources */,
+				FA1C5F4E25304DD600A14157 /* MovieList.swift in Sources */,
+				FA1C5F4F25304DD600A14157 /* MovieDetailInteractor.swift in Sources */,
+				FA1C5F5025304DD600A14157 /* SceneDelegate.swift in Sources */,
+				FA1C5F5125304DD600A14157 /* MovieDetailViewController.swift in Sources */,
+				FA1C5F5225304DD600A14157 /* DashboardInterface.swift in Sources */,
+				FADBC5FF25306E5300495306 /* DataAccess.swift in Sources */,
+				FA1C5F5325304DD600A14157 /* DashboardPresenter.swift in Sources */,
+				FA1C5F5525304DD600A14157 /* BaseWireframe.swift in Sources */,
+				FADBC5D7253067C300495306 /* TransportationDevice1.swift in Sources */,
+				FA1C5F9B25304E7E00A14157 /* Engine.swift in Sources */,
+				FA1C5F5625304DD600A14157 /* UIImageView.swift in Sources */,
+				FA1C5F5725304DD600A14157 /* DashboardInteractor.swift in Sources */,
+				FA1C5F5825304DD600A14157 /* MovieDetailWireframe.swift in Sources */,
+				FA1C5F5925304DD600A14157 /* DashboardWireframe.swift in Sources */,
+				FA1C5F5A25304DD600A14157 /* MovieDetailInterface.swift in Sources */,
+				FADBC60425306EAB00495306 /* DataAccessFactory.swift in Sources */,
+				FA1C5F5B25304DD600A14157 /* ViewInterface.swift in Sources */,
+				FADBC5DC253067E700495306 /* Vehicle1.swift in Sources */,
+				FA1C5F5C25304DD600A14157 /* PresenterInterface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C5F6D25304DDB00A14157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1C5FC42530624900A14157 /* Vehicle.swift in Sources */,
+				FA1C5FBC253061F700A14157 /* Engine.swift in Sources */,
+				FADBC5EB253069EC00495306 /* VehicleWithoutEngine1.swift in Sources */,
+				FA1C5F6E25304DDB00A14157 /* AppDelegate.swift in Sources */,
+				FADBC5F025306ABE00495306 /* VehicleWithEngine1.swift in Sources */,
+				FA1C5F6F25304DDB00A14157 /* DashboardViewController.swift in Sources */,
+				FA1C5F7025304DDB00A14157 /* MovieCell.swift in Sources */,
+				FA1C5F7125304DDB00A14157 /* MovieDetailPresenter.swift in Sources */,
+				FA1C5FB7253061DD00A14157 /* VehicleWithEngine.swift in Sources */,
+				FADBC61A2530704000495306 /* DataAccessFactory.swift in Sources */,
+				FA1C5F7225304DDB00A14157 /* InteractorInterface.swift in Sources */,
+				FA1C5FB125304E8900A14157 /* TransportationDevice.swift in Sources */,
+				FADBC61F2530710A00495306 /* DataCustomerLogic.swift in Sources */,
+				FA1C5F7325304DDB00A14157 /* MovieList.swift in Sources */,
+				FA1C5F7425304DDB00A14157 /* MovieDetailInteractor.swift in Sources */,
+				FADBC5E12530697600495306 /* Engine1.swift in Sources */,
+				FA1C5F7525304DDB00A14157 /* SceneDelegate.swift in Sources */,
+				FA1C5F7625304DDB00A14157 /* MovieDetailViewController.swift in Sources */,
+				FA1C5F7725304DDB00A14157 /* DashboardInterface.swift in Sources */,
+				FA1C5F7825304DDB00A14157 /* DashboardPresenter.swift in Sources */,
+				FA1C5F7A25304DDB00A14157 /* BaseWireframe.swift in Sources */,
+				FADBC60F25306FBF00495306 /* DataAccess.swift in Sources */,
+				FADBC5F825306C2700495306 /* Vehicle1.swift in Sources */,
+				FA1C5F7B25304DDB00A14157 /* UIImageView.swift in Sources */,
+				FA1C5F7C25304DDB00A14157 /* DashboardInteractor.swift in Sources */,
+				FADBC5E6253069A100495306 /* TransportationDevice1.swift in Sources */,
+				FA1C5F7D25304DDB00A14157 /* MovieDetailWireframe.swift in Sources */,
+				FA1C5F7E25304DDB00A14157 /* DashboardWireframe.swift in Sources */,
+				FA1C5F7F25304DDB00A14157 /* MovieDetailInterface.swift in Sources */,
+				FA1C5F8025304DDB00A14157 /* ViewInterface.swift in Sources */,
+				FA1C5F8125304DDB00A14157 /* PresenterInterface.swift in Sources */,
+				FA1C5FB225304E8900A14157 /* VehicleWithoutEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA1F9F1B2529F0FA00FDE804 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,6 +659,78 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FA1C5F6625304DD600A14157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InfoWrongExample.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rinoaleph.Viper-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1C5F6725304DD600A14157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InfoWrongExample.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rinoaleph.Viper-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA1C5F8B25304DDB00A14157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InfoCorrectExample.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rinoaleph.Viper-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1C5F8C25304DDB00A14157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InfoCorrectExample.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rinoaleph.Viper-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FA1F9F312529F0FF00FDE804 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -460,6 +886,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FA1C5F6525304DD600A14157 /* Build configuration list for PBXNativeTarget "Viper App Wrong Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1C5F6625304DD600A14157 /* Debug */,
+				FA1C5F6725304DD600A14157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1C5F8A25304DDB00A14157 /* Build configuration list for PBXNativeTarget "Viper App Correct Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1C5F8B25304DDB00A14157 /* Debug */,
+				FA1C5F8C25304DDB00A14157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FA1F9F1A2529F0FA00FDE804 /* Build configuration list for PBXProject "Viper App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
