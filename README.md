@@ -7,6 +7,9 @@
 ### Architecture
 - VIPER
 
+### Depedency
+- The Movie DB API service https://developers.themoviedb.org/3/getting-started
+
 # Application Preview
 ![Alt Text](https://media.giphy.com/media/thiCnQc62pzTmyOXjI/giphy.gif)
 
