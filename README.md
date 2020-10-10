@@ -10,6 +10,9 @@
 ### Depedency
 - The Movie DB API service https://developers.themoviedb.org/3/getting-started
 
+### Complexity
+- Intermediate 
+
 # Application Preview
 ![Alt Text](https://media.giphy.com/media/thiCnQc62pzTmyOXjI/giphy.gif)
 
