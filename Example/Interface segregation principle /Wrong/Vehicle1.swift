@@ -14,8 +14,9 @@ class Car1: TransportationDevice1 {
 
 class Bicycle1: TransportationDevice1 {
     override func changeEngine() { /* Wrong ... */
-        // Now it's a problem!
-        // Yes, a bicycle is a transportation device, however, it does not have an engine and hence, the interface changeEngine cannot be implemented.
+        /*
+         (PROBLEM, a bicycle is a transportation device, however, it does not have an engine and hence, the interface changeEngine cannot be implemented.)
+         */
         super.changeEngine()
     }
 }

@@ -6,8 +6,11 @@
 //
 
 class DataCustomerLogic {
-    private func _getCustomerName(id: Int) -> String {
+    init() {
+        /* Instantiate dataAccess with DataAccessFactory.getDataAccessObject */
         let dataAccess = DataAccessFactory.getDataAccessObject()
-        return dataAccess.getCustomerName(id: 1)
+
+        /* Call dataAccess.getCustomerName function */
+        _ = dataAccess.getCustomerName(id: 1)
     }
 }

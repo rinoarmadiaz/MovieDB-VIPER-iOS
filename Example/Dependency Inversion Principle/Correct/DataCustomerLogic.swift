@@ -6,12 +6,14 @@
 //
 
 class DataCustomerLogic {
+    /* Declare dataAccess Interface */
     let dataAccess: DataAccessInterface
-    init() {
-        dataAccess = DataAccessFactory.getCustomerDataObject()
-    }
     
-    private func _getCustomerName(id: Int) -> String {
-        dataAccess.getCustomerName(id: id)
+    init() {
+        /* Initialize dataAccess interface with DataAccessFactory */
+        dataAccess = DataAccessFactory.getCustomerDataObject()
+        
+        /* Call dataAccess.getCustomerName function */
+        _ = dataAccess.getCustomerName(id: 1)
     }
 }

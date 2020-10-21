@@ -6,6 +6,7 @@
 //
 
 public class DataAccess {
+    /* Create getCustomerName function */
     func getCustomerName(id: Int) -> String {
         return "Dummy Customer Name"
     }

@@ -7,16 +7,19 @@
 
 class VehicleWithEngine1: TransportationDevice1, MaintenanceEngines {
     let engine = Engine1()
-    
+
     func startEngine() {
         engine.startEngine()
     }
-    
+
     func startMoving() {
         // start moving
     }
-    
-    /* Implement MaintenanceEngines Interfaces | IDE will throw an error if we didn't implement the functions that inside interface we've use */
+
+    /*
+     Implement MaintenanceEngines Interfaces
+     (NOTE: IDE will throw an error if we didn't implement the functions that inside interface we've use)
+     */
     func changeEngines() {
         // change engines
     }

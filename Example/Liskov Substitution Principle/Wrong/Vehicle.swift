@@ -13,7 +13,8 @@ class Car: TransportationDevice {
 
 class Bicycle: TransportationDevice {
     override func startEngine() { /* Wrong ... */
-        // Now it's a problem!
-        // Yes, a bicycle is a transportation device, however, it does not have an engine and hence, the method startEngine() cannot be implemented.
+        /*
+         (PROBLEM a bicycle is a transportation device, however, it does not have an engine and hence, the method startEngine() cannot be implemented.)
+         */
     }
 }

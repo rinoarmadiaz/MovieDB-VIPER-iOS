@@ -6,6 +6,9 @@
 //
 
 class bicycle: VehicleWithoutEngine {
+    /*
+     (CORRECT: now bicycle only have startMoving functions, it cannot call startEngine)
+     */
     override func startMoving() {
         // move vehicle
         _ = getSpeed()

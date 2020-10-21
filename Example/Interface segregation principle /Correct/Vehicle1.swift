@@ -12,7 +12,7 @@ class bicycle1: VehicleWithoutEngine1 {
         _ = getName()
     }
     
-    override func changeSparepart() { /* class bicycle1 now can access changeSparepart interface */
+    override func changeSparepart() { /* CORRECT: class bicycle1 now can access changeSparepart interface */
         super.changeSparepart()
     }
 }
@@ -26,7 +26,7 @@ class car1: VehicleWithEngine1 {
         // start moving
     }
     
-    override func changeEngines() { /* class Car1 now can access changeEngines interface */
+    override func changeEngines() { /* CORRECT: class Car1 now can access changeEngines interface */
         super.changeEngines()
     }
 }

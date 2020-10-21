@@ -9,8 +9,11 @@ class VehicleWithoutEngine1: TransportationDevice, MaintenanceParts {
     func startMoving() {
         // Move the vehicle
     }
-    
-    /* Implement MaintenanceParts Interfaces | IDE will throw an error if we didn't implement the functions that inside interface we've use */
+
+    /*
+     Implement MaintenanceParts Interfaces
+     (NOTE: IDE will throw an error if we didn't implement the functions that inside interface we've use)
+     */
     func changeSparepart() {
         // Changing parts
     }
