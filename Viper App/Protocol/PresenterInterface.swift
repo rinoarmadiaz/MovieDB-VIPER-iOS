@@ -1,3 +1,5 @@
+// MARK: - Presenter Interface
+/// The protocol that define for all Presenter modules need to conform
 protocol PresenterInterface: class {
     func viewDidLoad()
     func viewWillAppear(animated: Bool)
@@ -6,25 +8,31 @@ protocol PresenterInterface: class {
     func viewDidDisappear(animated: Bool)
 }
 
+// MARK: - Presenter Interface Helpers
+/// PresenterInterface extra capabilities (for checking wether it's properly called on ViewController)
 extension PresenterInterface {
-
+    /// Throw an error if presenter called viewDidLoad but hasn't been called inside ViewController
     func viewDidLoad() {
-        fatalError("Implementation pending...")
+        fatalError("viewDidLoad hasn't been called inside ViewController")
     }
 
+    /// Throw an error if presenter called viewWillAppear but hasn't been called inside ViewController
     func viewWillAppear(animated: Bool) {
-        fatalError("Implementation pending...")
+        fatalError("viewWillAppear hasn't been called inside ViewController")
     }
 
+    /// Throw an error if presenter called viewDidAppear but hasn't been called inside ViewController
     func viewDidAppear(animated: Bool) {
-        fatalError("Implementation pending...")
+        fatalError("viewDidAppear hasn't been called inside ViewController")
     }
 
+    /// Throw an error if presenter called viewWillDisappear but hasn't been called inside ViewController
     func viewWillDisappear(animated: Bool) {
-        fatalError("Implementation pending...")
+        fatalError("viewWillDisappear hasn't been called inside ViewController")
     }
 
+    /// Throw an error if presenter called viewDidDisappear but hasn't been called inside ViewController
     func viewDidDisappear(animated: Bool) {
-        fatalError("Implementation pending...")
+        fatalError("viewDidDisappear hasn't been called inside ViewController")
     }
 }

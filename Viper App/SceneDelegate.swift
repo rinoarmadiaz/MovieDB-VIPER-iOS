@@ -15,9 +15,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        // Checking wether scene is empty, if not empty, proceed, else do nothing.
         guard let scene = (scene as? UIWindowScene) else { return }
+        // Get window from active scene
         let window = UIWindow(windowScene: scene)
+        // Initialize UINavigationController
         let initialController = UINavigationController()
+        // Set rootWireframe for DashboardWireframe() making it open DashboardWireframe when apps is opened
         initialController.setRootWireframe(DashboardWireframe())
         window.rootViewController = initialController
         self.window = window

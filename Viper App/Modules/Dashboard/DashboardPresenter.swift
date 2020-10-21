@@ -32,5 +32,6 @@ extension DashboardPresenter: DashboardPresenterInterface {
         _interactor.fetchFilms { (movieList: MovieList) in
             self.movieList = movieList
         }
+        self.viewWillAppear(animated: true)
     }
 }
