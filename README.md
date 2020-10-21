@@ -16,42 +16,6 @@
 # Application Preview
 ![Alt Text](https://media.giphy.com/media/thiCnQc62pzTmyOXjI/giphy.gif)
 
-# Application Project Structure
-                
-+ Application
-    + Modules
-        + Dashboard
-            + View
-                + Cells
-                + DashboardViewController.xib
-                + DashboardViewController.swift
-            + Entities
-                + MovieList.swift
-            + DashboardPresenter.swift
-            + DashboardWireframe.swift
-            + DashboardInteractor.swift
-            + DashboardInterface.swift
-        + Movie Detail
-            + View
-                + MovieDetailViewController.xib
-                + MovieDetailViewController.swift
-            + MovieDetailPresenter.swift
-            + MovieDetailWireframe.swift
-            + MovieDetailInteractor.swift
-            + MovieDetailInterface.swift
-    + Protocol
-        + BaseWireframe.swift
-        + PresenterInterface.swift
-        + ViewInterface.swift
-        + InteractorInterface.swift
-    + Extensions
-        + UIImageView.swift
-    + AppDelegate.swift
-    + SceneDelegate.swift
-    + Assets.xcassets
-    + Info.plist
-    + LaunchScreen.storyboard
-    
 # Liskov Substitution Principle (LSP) Example
 
 ### LSP is stating is that every subclass/derived class should be substitutable for their base/parent class.
@@ -97,3 +61,37 @@
 ### Correct Example :
 - We make our DataAccess to conform an interface & return the class that extending the interface on the DataAccessFactory
 
+# Application Project Structure
++ Application
+    + Modules
+        + Dashboard
+            + View
+                + Cells
+                + DashboardViewController.xib
+                + DashboardViewController.swift
+            + Entities
+                + MovieList.swift
+            + DashboardPresenter.swift
+            + DashboardWireframe.swift
+            + DashboardInteractor.swift
+            + DashboardInterface.swift
+        + Movie Detail
+            + View
+                + MovieDetailViewController.xib
+                + MovieDetailViewController.swift
+            + MovieDetailPresenter.swift
+            + MovieDetailWireframe.swift
+            + MovieDetailInteractor.swift
+            + MovieDetailInterface.swift
+    + Protocol
+        + BaseWireframe.swift
+        + PresenterInterface.swift
+        + ViewInterface.swift
+        + InteractorInterface.swift
+    + Extensions
+        + UIImageView.swift
+    + AppDelegate.swift
+    + SceneDelegate.swift
+    + Assets.xcassets
+    + Info.plist
+    + LaunchScreen.storyboard
