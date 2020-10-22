@@ -93,9 +93,6 @@
 		FA25365A25405928000E879B /* BoilerplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25365925405928000E879B /* BoilerplateInteractor.swift */; };
 		FA25366925405964000E879B /* BoilerplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25366725405964000E879B /* BoilerplateViewController.swift */; };
 		FA25366A25405964000E879B /* BoilerplateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA25366825405964000E879B /* BoilerplateViewController.xib */; };
-		FA25367525407687000E879B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA25367425407687000E879B /* README.md */; };
-		FA25367D25407866000E879B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA25367C25407866000E879B /* README.md */; };
-		FA25368525407A22000E879B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA25368425407A22000E879B /* README.md */; };
 		FAB613EF252A154500BA87D4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB613ED252A154500BA87D4 /* MovieCell.swift */; };
 		FAB613F0252A154500BA87D4 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB613EE252A154500BA87D4 /* MovieCell.xib */; };
 		FADA6F3C252A43B000B8C4D9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FADA6F3B252A43B000B8C4D9 /* README.md */; };
@@ -578,13 +575,10 @@
 			files = (
 				FADA6F3C252A43B000B8C4D9 /* README.md in Resources */,
 				FA1F9F7E252A06D300FDE804 /* MovieDetailViewController.xib in Resources */,
-				FA25368525407A22000E879B /* README.md in Resources */,
 				FA1F9F2F2529F0FF00FDE804 /* LaunchScreen.storyboard in Resources */,
 				FA1F9F2C2529F0FF00FDE804 /* Assets.xcassets in Resources */,
 				FA1F9F452529F30700FDE804 /* DashboardViewController.xib in Resources */,
 				FAB613F0252A154500BA87D4 /* MovieCell.xib in Resources */,
-				FA25367D25407866000E879B /* README.md in Resources */,
-				FA25367525407687000E879B /* README.md in Resources */,
 				FA25366A25405964000E879B /* BoilerplateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
