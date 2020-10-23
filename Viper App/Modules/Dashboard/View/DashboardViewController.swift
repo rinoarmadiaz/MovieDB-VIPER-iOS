@@ -17,7 +17,7 @@ final class DashboardViewController: UIViewController {
         super.viewDidLoad()
         presenter.viewDidLoad()
         _setupTableView()
-        navigationItem.title = "Movie List"
+        navigationItem.title = "MovieDB App"
     }
     
     func _setupTableView() {
